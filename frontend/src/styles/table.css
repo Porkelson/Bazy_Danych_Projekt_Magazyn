@@ -1,0 +1,38 @@
+/* table.css */
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.751);
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #555;
+}
+
+th {
+    background-color: #333;
+    /* font-weight: bold; */
+    cursor: pointer;
+}
+
+tr:hover {
+    background-color: #333;
+}
+
+/* tr:last-child td {
+    border-bottom: none;
+} */
+
+tr:nth-child(even) {
+    background-color: #444;
+}

@@ -1,0 +1,38 @@
+/* Styl dla selektora (dropdown) */
+select {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    color: #333;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  /* Efekt po najechaniu */
+  select:hover {
+    background-color: #f0f0f0;
+    border-color: #999;
+  }
+  
+  /* Styl dla aktywnego (wybranego) elementu */
+  select:focus {
+    outline: none;
+    border-color: #3498db;
+    background-color: #fff;
+  }
+  
+  /* Styl dla opcji */
+  option {
+    padding: 8px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Styl dla opcji wybranej */
+  option:checked {
+    background-color: #3498db;
+    color: #fff;
+  }

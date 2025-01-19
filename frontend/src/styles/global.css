@@ -1,0 +1,19 @@
+/* global.css */
+
+/* Podstawowy motyw ciemny */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styl główny kontener */
+div {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+

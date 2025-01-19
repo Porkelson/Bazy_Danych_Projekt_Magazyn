@@ -1,0 +1,154 @@
+/* Podstawowy motyw ciemny */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styl główny kontener */
+div {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Nagłówki */
+h1 {
+    color: #f1f1f1;
+    text-align: center;
+}
+
+/* Lista produktów */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Elementy listy */
+li {
+    background-color: #1f1f1f;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #333;
+}
+
+/* Formularz dodawania produktów */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+input {
+    background-color: #2a2a2a;
+    border: 1px solid #555;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #333;
+}
+
+/* Przycisk */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Tabela niskiego stanu magazynowego */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    background-color: #2a2a2a;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #333;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* Nagłówek dla sekcji niskiego stanu */
+h2 {
+    color: #f1f1f1;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Styl tekstu, gdy brak produktów */
+p {
+    text-align: center;
+    font-style: normal;
+    margin-top: 20px;
+    color: #bbb;
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;  /* Rozkłada linki równomiernie, odstęp między nimi jest równy */
+    gap: 20px;  /* Odstęp między linkami */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #f0f0f0;
+    color: #0056b3;
+  }
+  
+  .active-link {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  
+  

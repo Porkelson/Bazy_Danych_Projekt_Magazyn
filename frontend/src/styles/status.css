@@ -1,0 +1,21 @@
+.status-oczekujące {
+    background-color: #ffeb3b;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .status-anulowane {
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .status-zrealizowane {
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  

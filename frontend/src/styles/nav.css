@@ -1,0 +1,36 @@
+/* nav.css */
+
+/* Styl nawigacji */
+.nav-links {
+  background-color: #333; /* Ciemne tło paska nawigacyjnego */
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Cień do oddzielenia od reszty strony */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+.nav-link {
+  color: white; /* Kolor tekstu nawigacji */
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Aktywny link - podświetlenie */
+.nav-link.active-link {
+  background-color: #007bff; /* Niebieski kolor dla aktywnego linku */
+  color: white; /* Zmiana koloru tekstu dla lepszej widoczności */
+  font-weight: bold; /* Wyróżnienie aktywnego linku */
+}
+
+/* Efekt hover dla linków */
+.nav-link:hover {
+  background-color: #555; /* Ciemniejszy kolor przy hover */
+}

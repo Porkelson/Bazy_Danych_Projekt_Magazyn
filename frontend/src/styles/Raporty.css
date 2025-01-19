@@ -1,0 +1,35 @@
+/* Raporty.css */
+
+.raport-container {
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+.raport-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.raport-table th, .raport-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #555;
+}
+
+.raport-table th {
+    background-color: #333;
+}
+
+.raport-table tr:nth-child(even) {
+    background-color: #444;
+}
+
+.raport-table tr:hover {
+    background-color: #555;
+}

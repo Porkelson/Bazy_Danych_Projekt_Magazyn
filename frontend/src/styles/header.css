@@ -1,0 +1,14 @@
+/* header.css */
+
+/* Nagłówki */
+h1 {
+    color: #f1f1f1;
+    text-align: center;
+}
+
+/* Nagłówek dla sekcji niskiego stanu */
+h2 {
+    color: #f1f1f1;
+    margin-top: 20px;
+    text-align: center;
+}
