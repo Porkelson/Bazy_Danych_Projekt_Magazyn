@@ -13,12 +13,12 @@ Projekt integruje komponenty backendowe i frontendowe, wykorzystując Pythona do
 
 1. Sklonuj repozytorium:
 
-   ```bash
-   git clone <url_repozytorium>
-   cd <folder_projektu>
-   ```
+```bash
+git clone <url_repozytorium>
+cd <folder_projektu>
+```
    
-2. WYkorzystaj skrypty włączacjące:
+2. Wykorzystaj skrypty włączacjące:
 
  W trybie deweloperskim
    ```bash
@@ -29,7 +29,7 @@ Projekt integruje komponenty backendowe i frontendowe, wykorzystując Pythona do
    build_and_start.sh
    ```
 
-3.Funkcjonalności
+3. Funkcjonalności
 Zarządzanie zadaniami (Task Management System):
 
 Tworzenie, edytowanie, usuwanie zadań.
