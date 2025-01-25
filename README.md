@@ -4,11 +4,27 @@ Projekt integruje komponenty backendowe i frontendowe, wykorzystując Pythona do
 
 ## Wymagania
 
-- Python 3.x
-- Node.js
-- npm
+
+- **Python** 3.8+ (oraz moduły `pip` i `venv`)
+- **Node.js**
+- **npm**
+- **PostgreSQL** (z pakietem `libpq-dev`)
+
+**Szybka weryfikacja:**
+```bash
+python3 --version
+pip3 --version
+node -v
+npm -v
+```
 
 ## Setup
+
+0. Jeśli brakuje któregokolwiek z powyższych:
+```bash
+sudo apt update
+sudo apt install -y python3 python3-pip python3-venv nodejs npm postgresql postgresql-contrib libpq-dev
+```
 
 1. Sklonuj repozytorium:
 
@@ -16,29 +32,17 @@ Projekt integruje komponenty backendowe i frontendowe, wykorzystując Pythona do
 git clone <url_repozytorium>
 cd <folder_projektu>
 ```
-1.1 Sprawdź czy masz wszystkie potrzebne dependencje:
-```bash
-node -v
-npm -v
-python3 --version
-pip3 --version
-```
-(jeżeli nie masz, zainstaluj je:)
-```bash
-sudo apt update
-sudo apt install nodejs npm python3 python3-pip
-```
    
 2. Wykorzystaj skrypty włączacjące:
 
  W trybie deweloperskim
-   ```bash
-   test_and_start.sh
-   ```
+```bash
+test_and_start.sh
+```
  W trybie produkcyjnym:
-   ```bash
-   build_and_start.sh
-   ```
+```bash
+build_and_start.sh
+```
 
 3. Funkcjonalności
 Zarządzanie zadaniami (Task Management System):
