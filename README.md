@@ -7,7 +7,6 @@ Projekt integruje komponenty backendowe i frontendowe, wykorzystując Pythona do
 - Python 3.x
 - Node.js
 - npm
-- MySQL lub PostgreSQL (do zarządzania bazą danych)
 
 ## Setup
 
@@ -16,6 +15,18 @@ Projekt integruje komponenty backendowe i frontendowe, wykorzystując Pythona do
 ```bash
 git clone <url_repozytorium>
 cd <folder_projektu>
+```
+1.1 Sprawdź czy masz wszystkie potrzebne dependencje:
+```bash
+node -v
+npm -v
+python3 --version
+pip3 --version
+```
+(jeżeli nie masz, zainstaluj je:)
+```bash
+sudo apt update
+sudo apt install nodejs npm python3 python3-pip
 ```
    
 2. Wykorzystaj skrypty włączacjące:
