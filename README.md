@@ -45,24 +45,24 @@ build_and_start.sh
 ```
 
 3. Funkcjonalności
-Zarządzanie zadaniami (Task Management System):
-
-Tworzenie, edytowanie, usuwanie zadań.
-Możliwość przypisywania zadań do osób lub zespołów.
-Możliwość monitorowania statusów i daty wykonania zadań.
-Zarządzanie zamówieniami:
-
-Składanie zamówień na produkty w zależności od stanu magazynowego.
-Zamówienia są kierowane do odpowiednich dostawców, a najtańsza opcja jest automatycznie wybierana.
-Zarządzanie produktami:
-
-Śledzenie dostępności produktów u różnych dostawców.
-Możliwość dodawania nowych produktów do bazy danych.
-Raporty:
-
-Raporty miesięczne sprzedaży.
-Analiza dostawców oraz sprzedaży produktów.
-Historia zamówień z podziałem na zamówienia klientów i zamówienia do magazynu.
+   Zarządzanie zadaniami (Task Management System):
+   
+   Tworzenie, edytowanie, usuwanie zadań.
+   Możliwość przypisywania zadań do osób lub zespołów.
+   Możliwość monitorowania statusów i daty wykonania zadań.
+   Zarządzanie zamówieniami:
+   
+   Składanie zamówień na produkty w zależności od stanu magazynowego.
+   Zamówienia są kierowane do odpowiednich dostawców, a najtańsza opcja jest automatycznie wybierana.
+   Zarządzanie produktami:
+   
+   Śledzenie dostępności produktów u różnych dostawców.
+   Możliwość dodawania nowych produktów do bazy danych.
+   Raporty:
+   
+   Raporty miesięczne sprzedaży.
+   Analiza dostawców oraz sprzedaży produktów.
+   Historia zamówień z podziałem na zamówienia klientów i zamówienia do magazynu.
 
 4. Baza danych
 Aplikacja używa bazy danych do przechowywania informacji o produktach, zamówieniach, dostawcach i zadaniach. Używa się tabel takich jak:
