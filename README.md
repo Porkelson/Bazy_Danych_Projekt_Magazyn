@@ -67,17 +67,17 @@ Historia zamówień z podziałem na zamówienia klientów i zamówienia do magaz
 4. Baza danych
 Aplikacja używa bazy danych do przechowywania informacji o produktach, zamówieniach, dostawcach i zadaniach. Używa się tabel takich jak:
 
-produkt_dostawca: zawiera relacje między produktami a dostawcami.
-zamowienia_klienci: przechowuje dane o zamówieniach składanych przez klientów.
-magazyn: śledzi stan magazynowy produktów.
-zamowienia_magazyn: tabela służąca do składania zamówień do magazynu.
+   produkt_dostawca: zawiera relacje między produktami a dostawcami.
+   zamowienia_klienci: przechowuje dane o zamówieniach składanych przez klientów.
+   magazyn: śledzi stan magazynowy produktów.
+   zamowienia_magazyn: tabela służąca do składania zamówień do magazynu.
 
 
 5. Wykorzystane technologie
-Backend: Python, Flask
-Frontend: React, CSS (modularny)
-Baza danych: PostgreSQL
-SQL: Widoki, Triggery
-Uwagi
-Upewnij się, że masz zainstalowane wszystkie zależności przed uruchomieniem aplikacji. Możesz to zrobić, wykonując kroki w sekcji Setup.
-Funkcjonalności mogą się rozrastać o dodatkowe elementy, takie jak symulacja dostaw czy analiza danych.
+   Backend: Python, Flask
+   Frontend: React, CSS (modularny)
+   Baza danych: PostgreSQL
+   SQL: Widoki, Triggery
+   Uwagi
+   Upewnij się, że masz zainstalowane wszystkie zależności przed uruchomieniem aplikacji. Możesz to zrobić, wykonując kroki w sekcji Setup.
+   Funkcjonalności mogą się rozrastać o dodatkowe elementy, takie jak symulacja dostaw czy analiza danych.
